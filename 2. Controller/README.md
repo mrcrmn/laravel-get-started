@@ -9,7 +9,7 @@ Einen neuen Controller kann man mit der Konsole erstellen, indem man folgendes e
 ```
 php artisan make:controller ProductDetailController
 ```  
-Dieser Befehl erstellt im app/Htp/Controllers die Datei `PostDetailController.php` Datei. Die sieht dann so aus.
+Dieser Befehl erstellt im `app/Http/Controllers` die Datei `PostDetailController.php` Datei. Die sieht dann so aus.
 ```php
 <?php
 
