@@ -1,5 +1,5 @@
 # Routes
-Jetzt geht's los. In der `routes/web.php` Datei geht es quasi los. Hier können wir die Routen eintragen auf die Laravel reagieren soll. Das ganze sieht so z.B. so aus.
+In der `routes/web.php` Datei geht es quasi los. Hier können wir die Routen eintragen auf die Laravel reagieren soll. Das ganze sieht so z.B. so aus.
 ```php
 Route::get('product/{id}', function($id) {
     return view('product_detail', $id);
